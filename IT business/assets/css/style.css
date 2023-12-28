@@ -834,6 +834,11 @@ ul,li{
     .slick-prev {
         left: -10px;}
 
+    .banslider .col-md-7{
+            margin: 0px 10px;
+    }
+        
+
 }
 
 
