@@ -576,7 +576,7 @@ ul,li{
     .soc h1{
         font-size: 45px;
     }
-
+    
 }
 
 @media only screen and (max-width: 992px) {
@@ -773,7 +773,7 @@ ul,li{
     }
 
     .cartwo{
-        padding: 100px 0px;
+        padding: 60px 0px;
     }
 
     .imgb2{
@@ -796,16 +796,18 @@ ul,li{
     }
 
     .desk{
-        padding: 100px 0px;
+        padding: 60px 0px;
     }
 
     .About .row{
-        padding-top: 100px;
+        padding-top: 40px;
 
     }
 
-    
-}
+    .desk-title {
+        padding-bottom: 0px;
+
+    }}
 
 @media only screen and (max-width: 767px) {
 
