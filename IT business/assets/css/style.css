@@ -1,10 +1,10 @@
 body{
     margin: 0px;
     padding: 0px;
-    font-family: 'Mulish', sans-serif;
-    overflow-x: hidden; 
+    font-family: 'Mulish', sans-serif; 
 
 }
+
 
 p{
     font-size: 18px;
@@ -576,7 +576,7 @@ ul,li{
     .soc h1{
         font-size: 45px;
     }
-    
+
 }
 
 @media only screen and (max-width: 992px) {
@@ -732,29 +732,14 @@ ul,li{
         left: -117px;
     }
 
-    .navbar-collapse {
-        position: absolute;
-        top: 52px;
-        right: 0; 
-        width: 250px; 
-        background-color: #ffffff; 
-        padding: 10px 0px; 
-        /* transition: left 0.5s linear;  */
-        /* overflow: hidden; */
-        z-index: 1;
+    .navbar-collapse{
+        text-align: center;
+        position: absolute; 
+        z-index: 1; 
+        background-color: rgb(255, 255, 255); 
+        top: 89px; 
+        right: -30px;
     }
-    
-    .navbar-toggler {
-        position: absolute;
-        right: 0px;
-        /* z-index: 0;  */
-    }
-    
-    .navbar-collapse.show {
-        right: 0;
-    }
-    
-
 }
 
 @media only screen and (max-width: 819px) {
