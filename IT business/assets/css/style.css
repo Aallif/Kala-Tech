@@ -739,8 +739,8 @@ ul,li{
         width: 250px; 
         background-color: #ffffff; 
         padding: 10px 0px; 
-        transition: left 0.5s linear; 
-        overflow: hidden;
+        /* transition: left 0.5s linear;  */
+        /* overflow: hidden; */
         z-index: 1;
     }
     
