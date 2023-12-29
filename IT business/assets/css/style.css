@@ -6,28 +6,6 @@ body{
 
 }
 
-.navbar-collapse {
-    position: absolute;
-    top: 52px;
-    right: 0; 
-    width: 250px; 
-    background-color: #ffffff; 
-    padding: 10px 0px; 
-    transition: left 0.5s linear; 
-    overflow: hidden;
-    z-index: 1;
-}
-
-.navbar-toggler {
-    position: absolute;
-    right: 0px;
-    /* z-index: 0;  */
-}
-
-.navbar-collapse.show {
-    right: 0;
-}
-
 p{
     font-size: 18px;
     font-weight: 400;
@@ -753,6 +731,29 @@ ul,li{
         bottom: -25px;
         left: -117px;
     }
+
+    .navbar-collapse {
+        position: absolute;
+        top: 52px;
+        right: 0; 
+        width: 250px; 
+        background-color: #ffffff; 
+        padding: 10px 0px; 
+        transition: left 0.5s linear; 
+        overflow: hidden;
+        z-index: 1;
+    }
+    
+    .navbar-toggler {
+        position: absolute;
+        right: 0px;
+        /* z-index: 0;  */
+    }
+    
+    .navbar-collapse.show {
+        right: 0;
+    }
+    
 
 }
 
